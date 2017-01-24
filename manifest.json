@@ -15,6 +15,10 @@
     "128": "logo.png"
   },
 
+  "background": {
+    "scripts": ["app.js"]
+  },
+
   "permissions": [
     "tabs"
   ]
