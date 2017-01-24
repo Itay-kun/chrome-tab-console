@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Console",
+  "description": "Organize, group, blah blah blah...",
+  "version": "1.0.0",
+
+  "browser_action": {
+    "default_popup": "app.html",
+    "default_icon": "logo.png"
+  },
+
+  "icons": {
+    "32" : "logo.png",
+    "64" : "logo.png",
+    "128": "logo.png"
+  },
+
+  "background": {
+    "scripts": ["app.js"]
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
+
+
